@@ -1,9 +1,9 @@
 from __future__ import print_function
 import tensorflow as tf
-from .nn import linearND, linear
-from .mol_graph import atom_fdim as adim, bond_fdim as bdim, max_nb, smiles2graph_list as _s2g
-from .models import *
-from .ioutils_direct import *
+from nn import linearND, linear
+from mol_graph import atom_fdim as adim, bond_fdim as bdim, max_nb, smiles2graph_list as _s2g
+from models import *
+from ioutils_direct import *
 import math, sys, random
 from collections import Counter
 from optparse import OptionParser
